@@ -10,8 +10,7 @@
 namespace OnlineGame.Web.Models
 {
     using System;
-    using System.Collections.Generic;
-    
+
     public partial class Gamer
     {
         public int Id { get; set; }

@@ -152,6 +152,8 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>GamerDataModel.edmx</DependentUpon>
     </Compile>
+    <Compile Include="Models\Gamers\Gamer.cs" />
+    <Compile Include="Models\Gamers\GamerMetaData.cs" />
     <Compile Include="Models\spGetGamers_Result.cs">
       <DependentUpon>GamerDataModel.tt</DependentUpon>
     </Compile>
@@ -160,6 +162,7 @@
     </Compile>
     <Compile Include="Models\Teams\Team.cs" />
     <Compile Include="Models\Teams\TeamMetaData.cs" />
+    <Compile Include="Models\Teams\TeamTotals.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -180,6 +183,7 @@
     <Content Include="Views\Gamers\Edit.cshtml" />
     <Content Include="Views\Gamers\Index.cshtml" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
+    <Content Include="Views\Gamers\GamersByTeam.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
